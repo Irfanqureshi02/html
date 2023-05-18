@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+3    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
     <style>
-        p1
-        {color: red;}
+      p {
+        color: green;
+        font-size: 25px;
+        background-color: lightcoral;
+      }
+      img {
+        height: 200px;
+        border-width: 3px 5px 10px;
+        border-color: red green;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px 20px 0 0;
+        margin: 50px 20px;
+        outline-offset: 10px;
+      }
+    
+      body{
+        background-image: linear-gradient(green 30%,red 20%,blue);
+      }
+      .myclass{
+        color: rgb(13, 14, 13);
+        font-size: 50px;
     </style>
-</head>
-<body>
-    <p style="color: green;">this is my paragraph</p>
-    <p1>this my paragraph</p1>
-    <p1>this my paragraph</p1>
-</body>
+  </head>
+  <body>
+    <h1 class="myclass" id="myid">Hello world</h1>
+    <p>This is my paragraph</p>
+
+    <p>This is my paragraph</p>
+
+    <p style="color: white">This is my paragraph</p>
+
+    <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Girl Image" />
+  
+  </body>
 </html>
